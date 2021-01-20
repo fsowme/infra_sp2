@@ -57,6 +57,12 @@ python manage.py createsuperuser
 
 And now you can start browser and open redoc page http://127.0.0.1:8000/redoc/ with information about API and admin page http://127.0.0.1:8000/admin/
 
+## Built With
+
+* [Django](https://www.djangoproject.com/) - The web framework used
+* [Django REST framework](https://www.django-rest-framework.org/) - API framework
+
+
 ## Authors
 
 * **Vitalii Mikhailov**
