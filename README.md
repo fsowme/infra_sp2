@@ -46,9 +46,11 @@ Save and exit from .env file and run command to create docker containers. After 
 docker-compose up -d
 
 ```
-After creating enter the container with web project (show running containers: sudo docker-compose ps). Make migrations and superuser
+After creating enter the container with web project (show running containers: sudo docker-compose ps). Update packages and pip, make migrations and superuser
 ```
 docker exec -it <container_name> bash
+apt-get update && apt-get upgrade -y
+python -m pip install --upgrade pip
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
