@@ -1,5 +1,7 @@
 # YamDB API
 
+Educational project made with Django-framework and Django REST framework.
+API based on my yatube project (Django REST framework).
 API for training project yatube. Ready to up in Docker.
 
 ## Getting Started
